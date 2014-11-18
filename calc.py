@@ -39,6 +39,9 @@ def div(a, b):
 def pow(a, b):
     return a ** b
 
+def mod(a, b):
+	return a % b
+
 
 # -------------------------------------------------------- #
 
@@ -75,6 +78,8 @@ while (True):
             print "Quotient: ", div(a, b)
         elif (op == "**"):
             print "Quotient: ", pow(a, b)
+        elif (op == "%"):
+        	print "Modulo: ", mod(a,b)
         else:
             print "Invalid operation..."
 
